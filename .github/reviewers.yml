@@ -1,0 +1,9 @@
+reviewers:
+  groups:
+    batman:
+      - orxanmamedov
+files:
+  '**/*.go':
+    - batman
+options:
+  number_of_reviewers: 1
