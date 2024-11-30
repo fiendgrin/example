@@ -7,3 +7,4 @@ files:
     - all_files
 options:
   number_of_reviewers: 1
+  group_assignment: true
