@@ -1,4 +1,4 @@
-name: Code Review
+name: code review
 
 on:
   pull_request:
@@ -6,20 +6,11 @@ on:
 
 jobs:
   request-review:
-    name: Request Review
+    name: request review
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Log pull request author
-        run: echo "PR author is: ${{ github.actor }}"
-
       - name: Request review based on groups the author belongs to
         uses: necojackarc/auto-request-review@v0.10.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           config: .github/reviewers.yml
-
-      - name: Debug reviewers config
-        run: cat .github/reviewers.yml
