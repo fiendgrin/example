@@ -1,11 +1,10 @@
-groups:
-  your-group-name:  # Replace with your actual group name if applicable
-    - orxanmamedov  # Your GitHub username here
+reviewers:
+  groups:
+    batman:
+      - orxanmamedov
+
 files:
-  '**/*':  # This will match all files in the repository
-    - your-group-name  # Replace with your group or use your username if needed
+  '**/*':
+    - batman
 options:
   number_of_reviewers: 1
-per_author:
-  orxanmamedov:  # This should exactly match your GitHub username
-    - your-group-name  # Use your group or directly use your username here if needed
