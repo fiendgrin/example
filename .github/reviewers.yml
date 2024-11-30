@@ -2,6 +2,7 @@ reviewers:
   groups:
     batman:
       - orxanmamedov
+
 files:
   '**/*.go':
     - batman
