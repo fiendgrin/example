@@ -2,7 +2,6 @@ reviewers:
   groups:
     all_files:
       - orxanmamedov
-
 files:
   '**/*':
     - all_files
