@@ -7,7 +7,7 @@ on:
 jobs:
   request-review:
     name: request review
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Request review based on groups the author belongs to
         uses: necojackarc/auto-request-review@v0.10.0
