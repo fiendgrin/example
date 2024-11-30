@@ -1,10 +1,10 @@
 reviewers:
   groups:
-    batman:
+    all_files:
       - orxanmamedov
 
 files:
   '**/*':
-    - batman
+    - all_files
 options:
   number_of_reviewers: 1
