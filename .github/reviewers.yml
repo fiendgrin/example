@@ -1,8 +1,6 @@
-reviewers:
-  groups:
-    batman:
-      - orxanmamedov
-
+per_author:
+  orxanmamedov:
+    - batman
 files:
   '**/*':
     - batman
